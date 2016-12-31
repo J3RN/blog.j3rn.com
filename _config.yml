@@ -1,0 +1,17 @@
+title: "J3RN's Blog"
+email: jonarnett90@gmail.com
+description: >-
+  
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://blog.j3rn.com
+twitter_username: _J3RN
+github_username:  J3RN
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
