@@ -1,0 +1,32 @@
+- It just works! I like this.
+- The remote and local paths are the same (e.g. github.com/J3RN/foobar => $GOPATH/github.com/J3RN/foobar). Interesting, but kind of weird.
+- Only `for` loops. y tho. But do I ever use while loops?
+- `for` loops look weird without parens
+- No niceties like `reduce`?
+- `init` and `post` are optional. Aren't they all, really? An infinite loop is just `for`
+- *Very* strict. Which is nice. But I feel like I should be able to compile even if I don't use all my imports. Maybe not.
+- You can define variables in your `if`s. I see the utility, but I still don't like it.
+- They're way too proud of their common sense `switch`.
+- Like with Ruby, `switch` with no argument is a `cond`. I like `cond`.
+- So `defer`. It's weird. It pushes execution onto a virtual stack. Why a stack? Why not a queue?
+  - After reading this [blog post](https://blog.golang.org/defer-panic-and-recover), I get it! We have to do manual error checking (kill me) and we essentially want to ensure that this shit happens, whether the function exits successfully or not!
+  - Ok, wait. The parameters are resolved when `defer` is called, unless it's a named value, in which case you can change those *after* the function has returned. Kill me.
+  - It seems like the code actually executes after the function return, but I'm not sure why we're hanging on to old values.
+- Pointers can be nil. I hate everything.
+- Structs. They're real. You can read and write their attributes.
+  - Fuck. You can pretend a pointer to a struct is just a reference to the struct, but only when accessing attributes.
+- Slices. They're weird.
+  - Why does it exclude the high bound?
+  - I'm not sure about how I feel about mutating shared arrays through slices.
+  - You can create slice literals? Can you ever get a handle to the underlying array?
+  - When slicing a slice, the high and low bounds are relative to the slice you're slicing, not the underlying array. You can overflow the slice you're slicing to get more of the original array. Bound to drive someone insane.
+  - Great, we now have runtime out-of-bounds errors. Thanks, you fuckers.
+  - Nil slices. Someone didn't learn.
+  - `make` will malloc you an array and return a slice to it.
+  - So... when you `append` to a slice and it's too small, it `realloc`s a new array. OK. Whatever.
+	- Sometimes that array is larger than what you asked for.
+  - This slice exercise has convinced me that they made all the wrong decisions.
+- This map exercise restores my confidence a little, but not much.
+- First class functions. Didn't see that coming.
+- Great, closures. They stole the worst part of functional programming.
+  - Holy shit. I think they implemented closures *wrong*.
