@@ -3,7 +3,7 @@ layout: post
 title: "Interpolating Ruby Strings"
 date: 2014-12-19 22:14:25 -0500
 comments: true
-categories: Ruby, Programming
+tags: ruby programming
 ---
 
 Let's talk about interpolation. Sure, you probably know the Ruby string interpolation syntax:

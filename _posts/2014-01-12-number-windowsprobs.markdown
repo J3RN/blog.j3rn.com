@@ -3,7 +3,7 @@ layout: post
 title: "#WindowsProbs"
 date: 2014-01-12 17:06:21 -0500
 comments: true
-categories: [Linux, Windows, Technology]
+tags: linux windows technology
 ---
 
 Linux is Great

@@ -2,8 +2,7 @@
 layout: post
 title: "Escaping from Ruby Blocks"
 date: 2017-10-18 12:00:00 -0400
-category:
-tags: [ruby]
+tags: ruby
 ---
 
 ## Guard Clauses
