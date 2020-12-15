@@ -5,12 +5,18 @@ description: >-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://blog.j3rn.com
 github_username:  J3RN
+social:
+  name: Jonathan Arnett
+  links:
+    - https://github.com/J3RN
+    - https://linkedin.com/in/j3rn
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 exclude:
   - Gemfile
   - Gemfile.lock
