@@ -19,3 +19,4 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+google_analytics: true # Actually Plausible, but Minima forces this name
