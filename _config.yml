@@ -9,6 +9,8 @@ social:
   links:
     - https://github.com/J3RN
     - https://linkedin.com/in/j3rn
+header_pages:
+  - index.html
 
 # Build settings
 markdown: kramdown
