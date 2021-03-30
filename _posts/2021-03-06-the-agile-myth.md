@@ -12,7 +12,7 @@ Writing a criticism of Agile after [the word Agile has been pronounced dead by o
 	<small>The Agile conference at The Lodge at Snowbird</small>
 </div>
 
-The [Agile Manifesto](https://agilemanifesto.org) consists of for sets of values and twelve principles. The four values are:
+The [Agile Manifesto](https://agilemanifesto.org) consists of four sets of values and twelve principles. The four values are:
 
 - **Individuals and interactions** over processes and tools
 - **Working software** over comprehensive documentation
@@ -27,9 +27,9 @@ If you are a software developer, I want you to ask yourself the following questi
 
 I'm willing to bet that if your company's industry doesn't contain the word "software," your answer is "Never." If you work in software consulting or for a B2C software company, your answer is hopefully "recently," and you can feel free to stop reading at this point. But for those of us who work on development teams in industries such as finance, healthcare, or telecom the very idea of "customer collaboration" seems alien.
 
-**Why is that?** I would suggest that the answer lies in looking to the right: "contract negotiation." The only contract that I've negotiated as a software developer is that of my own employment—contracts between my company and customers has always been handled by someone "above" me, whether an engineering manager or even a dedicated sales team. The first I hear of a customer need is when I'm assigned to an [epic](https://www.atlassian.com/agile/project-management/epics) that outlines all of the aspects of a feature that my company is contractually obligated to build within a set timeframe.
+**Why is that?** I would suggest that the answer lies in looking to the right: "contract negotiation." The only contract that I've negotiated as a software developer is that of my own employment—contracts between my company and customers have always been handled by someone "above" me, whether an engineering manager or even a dedicated sales team. The first I hear of a customer need is when I'm assigned to an [epic](https://www.atlassian.com/agile/project-management/epics) that outlines all of the aspects of a feature that my company is contractually obligated to build within a set timeframe.
 
-To a large degree, this is an artifact of the industry. For instance, the lawyers for a pharmacy chain aren't going to be pleased if your company's approach to building software is "The software will be finished whenever it's done." This sentiment is an insult to the very way that the company does business! In most industries, when two companies decide to work together they begin with a written contract. In order to protect their investment, the company purchasing services has an interest in outlining concrete units of work that must be completed within set periods of time. If they feel that the vendor they hired is underperforming, they can prove this by referencing the contract and will be legally protected when seeking to terminate the contract or refund their purchase.
+To a large degree, this is an artifact of the industry. For instance, the lawyers for a pharmacy chain aren't going to be pleased if your company's approach to building software is "The software will be finished whenever it's done." This sentiment is an insult to the very way that company does business! In most industries, when two companies decide to work together they begin with a written contract. In order to protect their investment, the company purchasing services has an interest in outlining concrete units of work that must be completed within set periods of time. If they feel that the vendor they hired is underperforming, they can prove this by referencing the contract and will be legally protected when seeking to terminate the contract or refund their purchase.
 
 By the time the project begins, and the third Agile value has already been eshewed.
 
