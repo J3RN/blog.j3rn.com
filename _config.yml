@@ -1,7 +1,7 @@
 title: J3RN's Blog
 email: jonarnett90@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-description: My technical blog where I write about Ruby, Elixir, software architecture, and programming language design
+description: My technical blog where I write about Ruby, Elixir, software architecture, software development methodologies, and programming language design
 url: https://blog.j3rn.com
 github_username:  J3RN
 social:
